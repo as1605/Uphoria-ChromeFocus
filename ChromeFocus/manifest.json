@@ -1,0 +1,12 @@
+{
+    "name": "ChromeFocus",
+    "description": "Google Chrome extension for a distraction free entertainment experience",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/watch*"],
+            "js":["content.js"]
+        }
+    ]
+}
